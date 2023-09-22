@@ -1,0 +1,164 @@
+* {
+  //background-color: #0c0b15;
+  //background: black;
+
+  color: #e5e1ea;
+  max-width: 1300px;
+  margin: auto;
+  //padding: 32px;
+}
+
+/*.heroSection {
+  align-items: center;
+}*/
+
+.container {
+  max-width: 1152px;
+  margin: auto;
+}
+
+//className={styles.heroSection}
+
+.logo {
+  font-size: 35px;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.baseButton {
+  border: 1px solid white;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 7px 9px;
+  background-color: rgba(72, 70, 70, 0.646);
+  &:hover {
+    background-color: rgba(99, 99, 99, 0.646);
+  }
+}
+
+.getStarted {
+  border: 1px solid white;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 7px 9px;
+  background-color: rgb(155, 11, 238);
+  &:hover {
+    background-color: rgb(180, 79, 235);
+  }
+}
+
+main {
+  background: linear-gradient(
+    to bottom right,
+    #100f0f 0%,
+    rgba(17, 7, 21, 0.784) 80%
+  );
+  color: #e5e1ea;
+  border-radius: 12px;
+  //padding: 32px;
+}
+
+nav {
+  display: flex;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    a {
+      padding: 8px 16px;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+/*
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.myHeadline {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-style: bold;
+}
+
+div {
+  //display: flex;
+  //flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  //color: linear-gradient(
+  //  to bottom right,
+  //  #000000 10%,
+  //    rgba(255, 255, 255, //0.784) 80%
+  //);
+}
+
+h3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.gridItem {
+  background-color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4/3;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.gridImage {
+  align-self: start;
+  max-width: 10%;
+  height: auto;
+}
