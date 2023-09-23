@@ -1,4 +1,3 @@
-//import pics from 'C:/Users/Hamsa/projects/cloning-ul-website/pics';
 import React from 'react';
 import styles from './App.module.scss';
 
@@ -26,7 +25,7 @@ export default function App() {
               href="https://eclipsefin.netlify.app/#pricing"
               className={styles.baseButton}
             >
-              Start Now >
+              Start Now
             </a>
           </nav>
         </header>
@@ -54,7 +53,7 @@ export default function App() {
             href="https://eclipsefin.netlify.app/#pricing"
             className={styles.getStarted}
           >
-            Get Started >
+            Get Started
           </a>
           <br />
           <br />
@@ -176,7 +175,7 @@ export default function App() {
             href="https://eclipsefin.netlify.app/#pricing"
             className={styles.getStarted}
           >
-            Start Now >
+            Start Now
           </a>
           <br />
           <br />
