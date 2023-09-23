@@ -62,7 +62,7 @@ export default function App() {
           <br />
         </section>
         <section>
-          <img src="/pic1.png" />
+          <img src="/pic1.png" alt="app preview" />
         </section>
         <br />
         <br />
