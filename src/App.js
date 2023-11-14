@@ -6,6 +6,18 @@ export default function App() {
     <>
       <main>
         <header className={styles.container}>
+          {/* bg #111827 */}
+          {/* padding-top: 0.625rem;
+padding-bottom: 0.625rem;
+padding-left: 1rem;
+padding-right: 1rem;
+text-align: center;
+border-radius: 9999px;
+transition-duration: 150ms;
+display: flex;
+align-items: center;
+color: white;
+background-color: #6f42c1; */}
           <nav>
             <a href="https://eclipsefin.netlify.app/" className={styles.logo}>
               Eclipse
@@ -30,12 +42,6 @@ export default function App() {
           </nav>
         </header>
         <section>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
           <h1>
             All-in-one Finance App
             <br />
@@ -55,16 +61,10 @@ export default function App() {
           >
             Get Started
           </a>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
         </section>
         <section>
           <img src="/pic1.png" alt="app preview" />
         </section>
-        <br />
         <br />
         <section>
           <p className={styles.myHeadline}>Start growing your wealth with</p>
@@ -155,11 +155,7 @@ export default function App() {
         </section>
         <section>
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+
           <p className={styles.myHeadline}>
             Build a head start to your finances
           </p>
@@ -178,54 +174,13 @@ export default function App() {
             Start Now
           </a>
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
         </section>
         <section>Section 6</section>
         <section>Section 7</section>
         <section>Section 8</section>
       </main>
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <footer>Footer</footer>
     </>
   );

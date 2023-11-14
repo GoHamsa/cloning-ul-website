@@ -1,23 +1,14 @@
 * {
-  //background-color: #0c0b15;
-  //background: black;
-
+  /* background: #111827; */
   color: #e5e1ea;
   max-width: 1300px;
   margin: auto;
-  //padding: 32px;
 }
-
-/*.heroSection {
-  align-items: center;
-}*/
 
 .container {
   max-width: 1152px;
   margin: auto;
 }
-
-//className={styles.heroSection}
 
 .logo {
   font-size: 35px;
@@ -26,36 +17,43 @@
 }
 
 .baseButton {
-  border: 1px solid white;
-  font-style: bold;
-  border-radius: 10px;
-  padding: 7px 9px;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  border-radius: 9999px;
+  transition-duration: 150ms;
+  display: flex;
+  align-items: center;
+  color: white;
   background-color: rgba(72, 70, 70, 0.646);
   &:hover {
-    background-color: rgba(99, 99, 99, 0.646);
+    background-color: rgb(99, 99, 99, 0.646);
   }
 }
 
 .getStarted {
-  border: 1px solid white;
-  font-style: bold;
-  border-radius: 10px;
-  padding: 7px 9px;
-  background-color: rgb(155, 11, 238);
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  border-radius: 9999px;
+  transition-duration: 150ms;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #6f42c1;
   &:hover {
     background-color: rgb(180, 79, 235);
   }
 }
 
 main {
-  background: linear-gradient(
-    to bottom right,
-    #100f0f 0%,
-    rgba(17, 7, 21, 0.784) 80%
-  );
+  background: #111827;
   color: #e5e1ea;
-  border-radius: 12px;
-  //padding: 32px;
+  /* border-radius: 12px; */
 }
 
 nav {
@@ -78,14 +76,8 @@ nav {
   }
 }
 
-/*
-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 section {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,8 +100,6 @@ p {
 }
 
 div {
-  //display: flex;
-  //flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -119,11 +109,6 @@ h1 {
   display: flex;
   align-items: center;
   font-size: 60px;
-  //color: linear-gradient(
-  //  to bottom right,
-  //  #000000 10%,
-  //    rgba(255, 255, 255, //0.784) 80%
-  //);
 }
 
 h3 {
